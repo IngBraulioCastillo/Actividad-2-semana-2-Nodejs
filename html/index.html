@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Actividad 2 semana 2</title>
+</head>
+<body>
+    <h1>Creando Lista de Tareas</h1>
+    <div id="menu">
+        <button id="btnCompletadas">Ver Completadas</button>
+        <button id="btnPorCompletar">Ver por Completar</button>
+        <button id="btnAgregar">Agregar Tarea</button>
+        <button id="btnBorrarCompletadas">Borrar Completadas</button> 
+    </div>
+    <ol id="tareas">
+        <!-- Mostrando las tareas -->
+    </ol>
+
+    <div id="editarTarea" style="display: none;">
+        <h2>Editar Tarea</h2>
+        <input type="text" id="editTaskName" placeholder="Nombre de la Tarea">
+        <button id="btnGuardar">Guardar Tarea</button>
+    </div>
+
+    <div id="agregarTarea" style="display: none;">
+        <h2>Agregar Nueva Tarea</h2>
+        <input type="text" id="newTaskName" placeholder="Nombre de la nueva tare">
+        <button id="btnAgregarNueva">Agregar</button>      
+    </div>
+
+    <script src="/index.js"></script>
+    <script src="/javascritpt/script.js"></script>
+</body>
+</html>

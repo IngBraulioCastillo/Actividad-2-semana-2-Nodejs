@@ -1,0 +1,35 @@
+h1{
+    color: black;
+    background-color: rgba(128, 128, 128, 0.864);
+    text-align: center;
+    border-radius: 3px;
+}
+button{
+    color: black;
+    border: 2px solid black;
+    border-radius: 3px;
+    margin: 3px;
+}
+
+button:hover{
+    color: black;
+    background-color: aqua;
+}
+body{
+    background-image: url("Fondo.jpg");
+    text-align: center;
+}
+
+.menu{
+    display: flex;
+}
+
+ol{
+    margin-top: 60px;
+}
+
+
+body{
+    background-image: url(Fondo.jpg)
+
+}
